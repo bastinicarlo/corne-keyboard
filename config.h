@@ -24,21 +24,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 6
 #define TAPPING_TERM 180
-#define IGNORE_MOD_TAP_INTERRUPT
+//#define IGNORE_MOD_TAP_INTERRUPT
 
 //#define USE_MATRIX_I2C
-#ifdef KEYBOARD_crkbd_rev1_legacy
-#    undef USE_I2C
-#    define USE_SERIAL
-#endif
+//#ifdef KEYBOARD_crkbd_rev1_legacy
+//#    undef USE_I2C
+//#    define USE_SERIAL
+//#endif
 
 /* Select hand configuration */
 
 #define MASTER_LEFT
-// #define MASTER_RIGHT
-// #define EE_HANDS
+//#define MASTER_RIGHT
+//#define EE_HANDS
 
-#define USE_SERIAL_PD2
+//#define USE_SERIAL_PD2
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET // Activates the double-tap behavior
